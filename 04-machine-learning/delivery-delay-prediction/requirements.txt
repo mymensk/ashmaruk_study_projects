@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn>=1.6
+lightgbm
+catboost
+optuna
+shap
+sqlalchemy
+psycopg2-binary
+matplotlib
+seaborn

@@ -1,0 +1,15 @@
+# Обучение и анализ (model_training.ipynb)
+pandas==2.3.3
+numpy==2.2.6
+matplotlib==3.10.9
+seaborn==0.13.2
+scikit-learn==1.7.2
+catboost==1.2.10
+psycopg2-binary==2.9.10
+boto3==1.43.40
+jupyter
+
+# Инференс (dags/batch_inference_dag.py) выполняется на сервере Airflow,
+# где Airflow и провайдеры уже установлены. Для локальной проверки DAG:
+# apache-airflow==2.*
+# apache-airflow-providers-postgres

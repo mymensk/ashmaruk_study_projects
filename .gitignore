@@ -1,0 +1,17 @@
+# Данные и артефакты моделей не публикуются
+*.csv
+*.parquet
+*.pkl
+*.joblib
+catboost_info/
+mlruns/
+
+# Секреты
+.env
+*credentials*
+
+# Служебное
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
