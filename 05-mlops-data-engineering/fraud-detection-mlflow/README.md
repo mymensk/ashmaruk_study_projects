@@ -14,3 +14,15 @@
 **Решение:** [`fraud_detection_mlflow.ipynb`](fraud_detection_mlflow.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Fraud detection with MLflow experiment tracking**
+
+XGBoost with random hyperparameter search (one set = one run), logging params, metrics, plots, dataset and model to MLflow, best model registered in the Model Registry; credentials read from .env only.
+
+**Key result:** Experiments and Model Registry in MLflow
+
+_Notebooks and code comments are in Russian._

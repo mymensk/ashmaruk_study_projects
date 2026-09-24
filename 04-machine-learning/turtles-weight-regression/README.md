@@ -19,3 +19,15 @@
 **Решение:** [`turtles_weight_regression.ipynb`](turtles_weight_regression.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Sea turtle weight prediction from body measurements**
+
+Linear model for a computer vision system that estimates turtle weight without weighing: EDA, scaling comparison, LinearRegression vs Lasso vs Ridge vs SGDRegressor, feature importance.
+
+**Key result:** R² = 0.981, MAPE = 4%
+
+_Notebooks and code comments are in Russian._

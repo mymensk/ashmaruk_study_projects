@@ -156,3 +156,13 @@ export S3_ACCESS_KEY=... S3_SECRET_KEY=... S3_BUCKET=...
 SELECT COUNT(*) FROM predictions;
 SELECT * FROM predictions ORDER BY store, dept, date LIMIT 5;
 ```
+
+## In English
+
+**Dark store weekly sales forecast with batch inference in Airflow**
+
+CatBoostRegressor on PSI-stable features (lags, rolling means, aggregates), model stored in S3, weekly batch inference DAG in Airflow sharing one preprocessing module with training.
+
+**Key result:** R² = 0.977, model in S3, inference DAG
+
+_Notebooks and code comments are in Russian._

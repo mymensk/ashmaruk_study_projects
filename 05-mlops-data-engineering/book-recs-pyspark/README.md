@@ -17,3 +17,15 @@
 **Стек:** PySpark 3.3, YARN, S3 (Parquet)
 
 **Решение:** [`book_recs_pipeline.py`](book_recs_pipeline.py)
+
+---
+
+## In English
+
+**PySpark data marts for a book recommendation service**
+
+spark-submit job on YARN (cluster mode) reading and writing Parquet on S3; five data marts; query plan analysis and optimization (early filtering, broadcast joins, replacing windows with aggregations).
+
+**Key result:** 5 data marts; early filtering cut input from ~1M to 126K rows
+
+_Notebooks and code comments are in Russian._

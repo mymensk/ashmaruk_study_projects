@@ -19,3 +19,15 @@
 **Решение:** [`ab_test_video_feed.ipynb`](ab_test_video_feed.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**A/B test of a recommendation algorithm in a short-video app**
+
+Test design (sample size for MDE = 3%, duration), split sanity checks (group sizes, overlaps, device and region balance) and a one-sided z-test for proportions on the share of "successful" first sessions.
+
+**Key result:** No effect (31.57% vs 31.47%, p = 0.58) — do not ship
+
+_Notebooks and code comments are in Russian._

@@ -19,3 +19,15 @@
 **Решение:** [`yandex_afisha_eda.ipynb`](yandex_afisha_eda.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**User retention analysis for Yandex Afisha (ticketing service)**
+
+Data pulled from PostgreSQL via SQLAlchemy, revenue converted to RUB by historical rates, outliers filtered, user profiles built (21.7K users, 290K orders) and repeat purchases analysed by event type, region, device and ticket price.
+
+**Key result:** 61.7% of users return; key retention drivers found
+
+_Notebooks and code comments are in Russian._

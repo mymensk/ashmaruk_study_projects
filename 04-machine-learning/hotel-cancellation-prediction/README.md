@@ -20,3 +20,15 @@
 **Решение:** [`hotel_cancellation_prediction.ipynb`](hotel_cancellation_prediction.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Hotel booking cancellation prediction**
+
+Leak-free review history via merge_asof, TF-IDF on review texts inside the Pipeline, chronological split with TimeSeriesSplit, LightGBM and CatBoost tuned with Optuna on an Incremental Revenue business metric, isotonic calibration, threshold search and SHAP.
+
+**Key result:** Cancellations ≤ 10%, Incremental Revenue ≥ +50%
+
+_Notebooks and code comments are in Russian._

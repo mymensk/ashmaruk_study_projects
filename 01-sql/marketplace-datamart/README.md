@@ -18,3 +18,15 @@
 **Стек:** PostgreSQL: CTE, CASE, оконные и агрегатные функции, DATE_TRUNC
 
 **Решение:** [`vsetut_datamart.sql`](vsetut_datamart.sql)
+
+---
+
+## In English
+
+**Marketplace data mart and ad hoc analytics ("VseTut")**
+
+A user-level data mart for an e-commerce marketplace (orders, average check, ratings, cancellations, installments, promo codes, payment methods) built from 8 CTEs, plus four ad hoc tasks: order-count segmentation, top customers by average check, regional statistics and first-order-month cohorts.
+
+**Key result:** ~96% of users order once; installments used in ~50% of orders
+
+_Notebooks and code comments are in Russian._

@@ -18,3 +18,15 @@
 **Решение:** [`user_age_prediction.ipynb`](user_age_prediction.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Predicting user age group from digital footprint**
+
+Five data sources merged (site visits, ads, click depth, devices, cloud usage), behavioral aggregate features, multiclass classification (multinomial LogReg, OvR, OvO) tuned with GridSearchCV on macro F1.
+
+**Key result:** Multiclass model on behavioral features
+
+_Notebooks and code comments are in Russian._

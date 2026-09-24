@@ -19,3 +19,15 @@
 **Решение:** [`moscow_restaurants_market.ipynb`](moscow_restaurants_market.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Moscow restaurant market research**
+
+EDA of ~8,000 Moscow food venues (Yandex Maps data, 2022): categories, chains vs independents, seating, ratings and average check by district, phik correlation analysis, and recommendations for investors.
+
+**Key result:** District and format recommendations for a new venue
+
+_Notebooks and code comments are in Russian._

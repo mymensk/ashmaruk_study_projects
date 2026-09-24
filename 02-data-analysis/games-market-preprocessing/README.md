@@ -19,3 +19,15 @@
 **Решение:** [`games_market_preprocessing.ipynb`](games_market_preprocessing.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Video game sales data preprocessing**
+
+Cleaning and preparing 2000–2013 video game sales and ratings data for an analytical article: column normalization, type fixes, missing values, explicit and implicit duplicates, user/critic score categorization and top platforms.
+
+**Key result:** Sony and Nintendo led the 2000–2013 market
+
+_Notebooks and code comments are in Russian._

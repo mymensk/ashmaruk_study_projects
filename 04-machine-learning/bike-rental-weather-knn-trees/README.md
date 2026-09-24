@@ -19,3 +19,15 @@
 **Решение:** [`bike_rental_knn_trees.ipynb`](bike_rental_knn_trees.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Bike rental demand forecasting from weather**
+
+KNN and decision tree regressors with Optuna tuning and cross-validation, compared on RMSE, MAE and R²; feature importance analysis and model export.
+
+**Key result:** Decision tree beats KNN and baseline
+
+_Notebooks and code comments are in Russian._

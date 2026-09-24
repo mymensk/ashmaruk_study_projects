@@ -19,3 +19,15 @@
 **Решение:** [`delivery_delay_prediction.ipynb`](delivery_delay_prediction.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Delivery delay risk prediction**
+
+Delay probability at order time for dispatchers: geographic and RFM customer clusters (KMeans) as features, logistic regression vs CatBoost, number of clusters tuned as a hyperparameter, GroupShuffleSplit by customer.
+
+**Key result:** ROC-AUC = 0.768 (target > 0.75)
+
+_Notebooks and code comments are in Russian._

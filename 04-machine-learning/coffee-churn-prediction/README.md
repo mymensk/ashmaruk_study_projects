@@ -19,3 +19,15 @@
 **Решение:** [`coffee_churn_prediction.ipynb`](coffee_churn_prediction.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Customer churn prediction for a coffee delivery service**
+
+Binary classification to flag customers likely to churn next month: EDA, class imbalance check, Pipeline + ColumnTransformer preprocessing, logistic regression tuning, feature selection, model export.
+
+**Key result:** Main churn drivers: app failures and paid subscription
+
+_Notebooks and code comments are in Russian._

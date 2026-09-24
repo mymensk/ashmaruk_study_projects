@@ -19,3 +19,15 @@
 **Решение:** [`adtech_ctr_prediction.ipynb`](adtech_ctr_prediction.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Ad click-through rate (CTR) prediction**
+
+Binary classifier whose probabilities match real click rates: preprocessing pipelines, feature selection, Dummy → LogisticRegression → SVM, manual cross-validation on PR-AUC, hyperparameter tuning and probability calibration.
+
+**Key result:** Calibrated CTR model, top-5 features identified
+
+_Notebooks and code comments are in Russian._

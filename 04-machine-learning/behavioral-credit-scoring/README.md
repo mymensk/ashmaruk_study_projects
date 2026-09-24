@@ -18,3 +18,15 @@
 **Решение:** [`behavioral_credit_scoring.ipynb`](behavioral_credit_scoring.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Behavioral credit scoring: 90+ days past due within 12 months**
+
+Target built with respect to time structure from transactions, credit, delinquency and macro data; logistic regression vs Random Forest (with/without class balancing), Optuna tuning on missed-defaults rate, probability calibration, business-driven threshold selection and stability check.
+
+**Key result:** Calibrated Random Forest with a business-driven threshold
+
+_Notebooks and code comments are in Russian._

@@ -113,3 +113,13 @@ DAG ручной (`schedule=None`). Запускается из Airflow UI:
 
 Пароль и ключи S3 в репозитории не хранятся — они задаются только в
 Airflow Connections.
+
+## In English
+
+**Batch feature pipeline in Airflow**
+
+Airflow DAG computing reproducible 7/30-day customer features from PostgreSQL strictly before run_date (no future leakage) and saving them to S3; the same code serves training and inference snapshots.
+
+**Key result:** Reproducible, leak-free features
+
+_Notebooks and code comments are in Russian._

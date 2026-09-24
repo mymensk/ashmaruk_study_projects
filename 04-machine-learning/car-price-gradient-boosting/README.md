@@ -19,3 +19,15 @@
 **Решение:** [`car_price_gradient_boosting.ipynb`](car_price_gradient_boosting.ipynb)
 
 > Данные не публикуются: это учебные датасеты Яндекс Практикума. Ноутбук сохранён с выводами ячеек, поэтому результаты видны без запуска.
+
+---
+
+## In English
+
+**Instant used-car buyout price estimation**
+
+CatBoost vs LightGBM vs XGBoost with Optuna, business metrics (overpricing rate, underpricing loss), SHAP interpretation and risk segments by brand and region.
+
+**Key result:** CatBoost, R² = 0.874
+
+_Notebooks and code comments are in Russian._
